@@ -1,0 +1,21 @@
+{
+  "name": "Star Plan It",
+  "short_name": "Star Plan It",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#000000",
+  "description": "Star Plan It, um projeto feito para o desafio do programa de estágio Framework Padawans!",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#000000"
+}
