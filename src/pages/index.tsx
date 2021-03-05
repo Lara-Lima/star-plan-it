@@ -5,9 +5,9 @@ import { IoRocketOutline } from 'react-icons/io5'
 
 export default function Home() {
   return (
-    <div className="max-w-full flex flex-col justify-center items-center h-full mt-12">
+    <div className="max-w-full flex flex-col justify-center items-center h-full">
       <div className="sm:px-6 md:px-12 xl:px-16">
-        <section className="bg-customGray mt-12 rounded-2xl shadow-lg p-4">
+        <section className="bg-customGray mt-12 mb-12 rounded-2xl shadow-lg p-4">
           <ul className="py-4 flex flex-col items-center justify-between sm:flex-row">
             <ListItem
               icon={

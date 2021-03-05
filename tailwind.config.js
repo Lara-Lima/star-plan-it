@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}','./src/styles/**/*.css'],
   darkMode: false,
   theme: {
     extend: {
@@ -17,5 +17,9 @@ module.exports = {
   variants: {
     extend: {}
   },
-  plugins: []
+  plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true
+  }
 }
