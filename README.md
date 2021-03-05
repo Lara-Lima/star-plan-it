@@ -1,58 +1,68 @@
+![star-plan-it](https://github.com/Lara-Lima/star-plan-it/blob/master/framework.gif?raw=true)
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+<p align="center">
+  <a href="https://starplanit.vercel.app/" target="_blank">
+    <img alt="Star Plan It" src="https://svgshare.com/i/MKt.svg">
+  </a>
+</p>
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
-## What is inside?
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Lara-Lima/star-plan-it?color=%2304D361">
 
-This project uses lot of stuff as:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Lara-Lima/star-plan-it">
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
+  <a href="https://www.linkedin.com/in/lara-lima-pereira-b41585205">
+    <img alt="Made by Lara" src="https://img.shields.io/badge/made%20by-Lara Lima-%2304D361">
+  </a>
+	
+  
+  <a href="https://github.com/Lara-Lima/star-plan-it/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Lara-Lima/star-plan-it">
+  </a>
 
-## Getting Started
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/Lara-Lima/star-plan-it/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Lara-Lima/star-plan-it?style=social">
+  </a>
+</p>
 
-First, run the development server:
+## 💻 Sobre o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Star Plan It é uma aplicação feita para o desafio Framework Padawans. A atividade consiste em fazer uma aplicação, onde, foi necessário fazer chamadas HTTP para o API do JSON PlaceHolder buscando os seguintes endpoints:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Albuns
+- Postagens
+- To do
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Com os endpoints acima foram criadas tabelas para listagem dos resultados obtidos e junto a tabela foi feita a paginação que consistia em tarefa extra. A paginação foi disponibilizada pela API do JSON PlaceHolder.
 
-## Commands
+## 🛠 Tecnologias
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Learn More
+- ReactJS
+- NextJS
+- Tailwind CSS
+- Styled Components
+- TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Instalação e execução
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Faça um clone desse repositório;
+2. Entre na pasta rodando `cd star-plan-it`;
+3. Execute `yarn` ou `npm install` para instalar as dependências;
+4. Execute `yarn dev` ou `npm run dev` para iniciar a aplicação.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤔 Como contribuir para o projeto
 
-## Deploy on Vercel
+1. Faça um *fork* do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto esta sob a licença MIT. Veja a [LICENÇA](https://github.com/Lara-Lima/star-plan-it/blob/master/LICENSE.md) para saber mais.
+
+Feito com ❤️ por Lara Lima 👋🏽 [Entre em contato!](https://www.linkedin.com/in/lara-lima-pereira-b41585205/)
